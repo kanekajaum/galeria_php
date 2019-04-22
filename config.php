@@ -4,7 +4,7 @@ require 'environment.php';
 $config = array();
 if(ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://localhost/mvc_routers/");
-	$config['dbname'] = 'estrutura_mvc';
+	$config['dbname'] = 'galeria';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = 'root';
