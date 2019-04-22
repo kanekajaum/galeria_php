@@ -1,0 +1,9 @@
+CREATE DATABASE galeria;
+USE galeria;
+
+
+CREATE TABLE fotos(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+titulo VARCHAR(100),
+url VARCHAR(50)
+);
