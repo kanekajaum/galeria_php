@@ -1,4 +1,5 @@
 CREATE DATABASE galeria;
+
 USE galeria;
 
 
@@ -8,4 +9,27 @@ titulo VARCHAR(100),
 url VARCHAR(50)
 );
 
+
 INSERT INTO fotos (titulo, url) VALUES ("Teste 1", "imagem.png");
+
+INSERT INTO fotos (titulo, url) VALUES ("brownies", "imagem_2.jpg");
+
+INSERT INTO fotos (titulo, url) VALUES ("chocolate", "imagem_3.jpg");
+
+INSERT INTO fotos (titulo, url) VALUES ("Choco", "imagem_4.jpg");
+
+INSERT INTO fotos (titulo, url) VALUES ("Choco com brownies", "imagem_5.jpg");
+
+INSERT INTO fotos (titulo, url) VALUES ("Limão", "imagem_6.jpg");
+
+
+SELECT * FROM fotos;
+
+
+/*
+
+UPDATE fotos SET titulo = "Bolo com cobertura de chocolate";
+
+DELETE FROM fotos WHERE id = ?;
+
+*/
